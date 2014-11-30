@@ -21,6 +21,7 @@
 		06A5EF6B1A154CB200A8B235 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A5EF4D1A154CB200A8B235 /* UIKit.framework */; };
 		06A5EF731A154CB200A8B235 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06A5EF711A154CB200A8B235 /* InfoPlist.strings */; };
 		06A5EF751A154CB200A8B235 /* Prep_For_PirateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A5EF741A154CB200A8B235 /* Prep_For_PirateTests.m */; };
+		06A5EF801A15586F00A8B235 /* LNAwesomeClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A5EF7F1A15586F00A8B235 /* LNAwesomeClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		06A5EF701A154CB200A8B235 /* Prep For PirateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Prep For PirateTests-Info.plist"; sourceTree = "<group>"; };
 		06A5EF721A154CB200A8B235 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		06A5EF741A154CB200A8B235 /* Prep_For_PirateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Prep_For_PirateTests.m; sourceTree = "<group>"; };
+		06A5EF7E1A15586F00A8B235 /* LNAwesomeClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNAwesomeClass.h; sourceTree = "<group>"; };
+		06A5EF7F1A15586F00A8B235 /* LNAwesomeClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNAwesomeClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				06A5EF5B1A154CB200A8B235 /* Main.storyboard */,
 				06A5EF5E1A154CB200A8B235 /* LNViewController.h */,
 				06A5EF5F1A154CB200A8B235 /* LNViewController.m */,
+				06A5EF7E1A15586F00A8B235 /* LNAwesomeClass.h */,
+				06A5EF7F1A15586F00A8B235 /* LNAwesomeClass.m */,
 				06A5EF611A154CB200A8B235 /* Images.xcassets */,
 				06A5EF501A154CB200A8B235 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06A5EF801A15586F00A8B235 /* LNAwesomeClass.m in Sources */,
 				06A5EF5A1A154CB200A8B235 /* LNAppDelegate.m in Sources */,
 				06A5EF561A154CB200A8B235 /* main.m in Sources */,
 				06A5EF601A154CB200A8B235 /* LNViewController.m in Sources */,

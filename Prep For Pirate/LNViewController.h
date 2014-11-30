@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "LNAwesomeClass.h"
 @interface LNViewController : UIViewController
+
+@property(nonatomic) CGPoint currentPoint;
+@property (strong, nonatomic) IBOutlet UIButton *myButton;
+@property(strong, nonatomic) LNAwesomeClass *awesomeClass;
 
 @end
